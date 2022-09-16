@@ -1,0 +1,41 @@
+<html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<head>
+    <title>
+        Trunfo Lol
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://logodownload.org/wp-content/uploads/2014/09/lol-league-of-Legends-logo.png" class="page-logo"
+            alt="">
+        <h1 class="page-title">Testando se passo fome como front</h1>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
+        <form id="form">
+            <h2>Escolha um stats, e clique em jogar é bem autoexplicativo
+          é tipo supertrunfo mano CLICA NAS BOLINHAS DE ATAQUE DEFESA OU MANA</h2>
+            <div class="wrapper">
+                <div id="placar"></div>
+                <div id="quantidade-cartas"></div>
+                <div id="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+              <div id="Attack"></div>
+                <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                    disabled="false">Jogar</button>
+            </div>
+            <div id="resultado"></div>
+            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima
+                rodada</button>
+        </form>
+    </div>
+</body>
+
+</html>
